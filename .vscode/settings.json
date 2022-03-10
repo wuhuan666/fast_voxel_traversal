@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "cfloat": "cpp",
+        "vector": "cpp",
+        "cmath": "cpp",
+        "deque": "cpp",
+        "string": "cpp"
+    },
+    "cmake.configureOnOpen": true
+}

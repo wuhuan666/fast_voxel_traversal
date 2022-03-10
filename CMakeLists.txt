@@ -7,6 +7,6 @@ find_package(Eigen3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
 
 add_executable(fast_voxel_traversal main.cpp)
-target_link_libraries(fast_voxel_traversal)
+#target_link_libraries(fast_voxel_traversal)
 
-install(TARGETS fast_voxel_traversal RUNTIME DESTINATION bin)
+#install(TARGETS fast_voxel_traversal RUNTIME DESTINATION bin)
