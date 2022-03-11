@@ -96,7 +96,7 @@ std::vector<Eigen::Vector3i> voxel_traversal(Eigen::Vector3d ray_start, Eigen::V
 }
 
 int main (int, char**) {
-  Eigen::Vector3d ray_start(1,0,3);
+  Eigen::Vector3d ray_start(1,1,3);
   Eigen::Vector3d ray_end(-4,-3,-10);
   std::cout << "Voxel size: " << _bin_size << std::endl;
   std::cout << "Starting position: " << ray_start.transpose() << std::endl;//transpose，转置
